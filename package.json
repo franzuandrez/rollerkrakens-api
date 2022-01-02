@@ -1,0 +1,14 @@
+{
+  "name": "Rollerkrakens API",
+  "version": "1.0.0",
+  "description": "Backend for Rollerkrakens page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Franzua Andrez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
