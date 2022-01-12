@@ -1,5 +1,5 @@
 {
-  "name": "Rollerkrakens API",
+  "name": "rollerkrakens-api",
   "version": "1.0.0",
   "description": "Backend for Rollerkrakens page",
   "main": "index.js",
@@ -9,6 +9,7 @@
   "author": "Franzua Andrez",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "sequelize": "^7.0.0-alpha.4"
   }
 }
