@@ -7,6 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Franzua Andrez",
+  "contributors": [
+    {
+      "name": "Jairo Roberto Velásquez Zuñiga.",
+      "url": "https://github.com/JairoDev01"
+    }
+  ],
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.2",
