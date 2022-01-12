@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Franzua Andrez",
+  "author": {
+    "name":  "Franzua Andrez",
+    "url": "https://www.franzuandrez.com/"
+
+  },
   "contributors": [
     {
       "name": "Jairo Roberto Velásquez Zuñiga.",
