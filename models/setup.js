@@ -14,7 +14,7 @@ module.exports = (sequelize, DataTypes) => {
     }
   };
   Setup.init({
-    partID: DataTypes.INTEGER,
+    partId: DataTypes.INTEGER,
     quantity: DataTypes.INTEGER
   }, {
     sequelize,

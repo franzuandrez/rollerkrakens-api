@@ -8,7 +8,7 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      partID: {
+      partId: {
         type: Sequelize.INTEGER
       },
       quantity: {
