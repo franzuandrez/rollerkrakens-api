@@ -14,7 +14,7 @@ module.exports = {
       spanishName: {
         type: Sequelize.STRING
       },
-      subcategoryId: {
+      categoryId: {
         type: Sequelize.INTEGER
       },
       dificultyLevelId: {

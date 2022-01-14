@@ -16,7 +16,7 @@ module.exports = (sequelize, DataTypes) => {
   Trick.init({
     englishName: DataTypes.STRING,
     spanishName: DataTypes.STRING,
-    subcategoryId: DataTypes.INTEGER,
+    categoryId: DataTypes.INTEGER,
     dificultyLevelId: DataTypes.INTEGER
   }, {
     sequelize,
