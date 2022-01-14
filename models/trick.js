@@ -17,7 +17,7 @@ module.exports = (sequelize, DataTypes) => {
     englishName: DataTypes.STRING,
     spanishName: DataTypes.STRING,
     categoryId: DataTypes.INTEGER,
-    dificultyLevelId: DataTypes.INTEGER
+    difficultLevelId: DataTypes.INTEGER
   }, {
     sequelize,
     modelName: 'Trick',

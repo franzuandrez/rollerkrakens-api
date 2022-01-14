@@ -17,7 +17,7 @@ module.exports = {
       categoryId: {
         type: Sequelize.INTEGER
       },
-      dificultyLevelId: {
+      difficultLevelId: {
         type: Sequelize.INTEGER
       },
       createdAt: {
