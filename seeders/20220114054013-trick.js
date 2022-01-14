@@ -6,8 +6,8 @@ module.exports = {
             {
                 englishName: 'Slalom',
                 spanishName: 'prueba2',
-                subcategoryId:1,
-                dificultyLevelId:1,
+                categoryId:1,
+                difficultyLevelId:1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             }
