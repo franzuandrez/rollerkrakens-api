@@ -18,7 +18,11 @@ module.exports = {
         type: Sequelize.STRING
       },
       eventId: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
+        references:{
+          model:'event',
+          key:'id'
+        }
       },
       createdAt: {
         allowNull: false,
