@@ -11,6 +11,7 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      this.belongsTo(models.mediaevent, {through: 'mediaId', as: 'mediaEvent'});
     }
   };
   MediaSkater.init({
