@@ -12,7 +12,11 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       mediaId: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
+        references:{
+          model:'event_media',
+          key:'id'
+        }
       },
       createdAt: {
         allowNull: false,
