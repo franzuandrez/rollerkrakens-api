@@ -18,7 +18,11 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       routeId: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
+        references:{
+          model:'route',
+          key:'id'
+        }
       },
       createdAt: {
         allowNull: false,
