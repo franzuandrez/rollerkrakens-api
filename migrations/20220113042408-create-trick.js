@@ -22,7 +22,11 @@ module.exports = {
         }
       },
       difficultyLevelId: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
+        references:{
+          model:'difficulty_level',
+          key:'id'
+        }
       },
       createdAt: {
         allowNull: false,
