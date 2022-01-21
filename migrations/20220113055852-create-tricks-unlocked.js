@@ -9,13 +9,21 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       trainingSkaterId: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       trickId: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
+        references:{
+          model:'trick',
+          key:'id'
+        }
       },
       skaterSetupId: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
+        references:{
+          model:'skater_setups',
+          key:'id'
+        }
       },
       createdAt: {
         allowNull: false,
