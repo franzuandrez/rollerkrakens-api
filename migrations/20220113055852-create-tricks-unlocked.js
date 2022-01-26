@@ -10,6 +10,10 @@ module.exports = {
       },
       trainingSkaterId: {
         type: Sequelize.INTEGER,
+        references:{
+          model:'TrainingSkater',
+          key:'id'
+        }
       },
       trickId: {
         type: Sequelize.INTEGER,
